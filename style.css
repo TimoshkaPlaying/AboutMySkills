@@ -1,14 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Narrow:wght@700&display=swap');
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: "PT Sans Narrow", serif;
 }
 
 header {
     width: 100vw;
     height: 100vh;
-    background: url(header_bg.webp);
+    background: url(images/header_bg.jpg);
     background-size: cover;
     display: flex;
+    color: white;
 }
 
 .header_left {
@@ -40,10 +51,15 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 10vw;
+
 }
 
 .header_btn {
     cursor: pointer;
+}
+
+.header_btn a{
+    color: white;
 }
 
 .header_btn:hover {
@@ -84,8 +100,20 @@ section h1 {
     height: 100%;
 }
 
+/* .python {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.python img {
+    height: 200%;
+    width: 200%;
+} */
 
 .projects {
+    width: 100vw;
     color: white;
     background: black;
 }
@@ -99,7 +127,7 @@ footer {
     width: 100vw;
     height: 100px;
     position: relative;
-    background-image: url(footer_bg.png);
+    background-image: url(images/footer_bg.jpg);
     background-size: cover;
     background-position: center;
 }
