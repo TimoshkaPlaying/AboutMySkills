@@ -3,6 +3,11 @@
 html, body {
     width: 100%;
     overflow-x: hidden;
+    user-select: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -12,6 +17,10 @@ body {
     height: 100vh;
     font-family: "PT Sans Narrow", serif;
 }
+
+/* img {
+    pointer-events: none;
+} */
 
 header {
     width: 100vw;
@@ -99,18 +108,6 @@ section h1 {
 .section_item img {
     height: 100%;
 }
-
-/* .python {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.python img {
-    height: 200%;
-    width: 200%;
-} */
 
 .projects {
     width: 100vw;
